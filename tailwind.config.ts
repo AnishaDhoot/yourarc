@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inknut: ["Inknut Antiqua", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
