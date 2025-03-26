@@ -10,10 +10,10 @@ export default function Header() {
         <Image src={logo} alt="logo" width={60} height={60} /></a>
       </div>
       <nav className="flex space-x-6 text-[#FEF9F1] font-[Inknut Antiqua] text-lg bg-[#28303D] px-8 py-2 rounded-full shadow-lg border border-[#FEF9F1]/20">
-        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition">About Us</h4>
+        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition"><a href="/aboutus">About Us</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition"> <a href="/courses">Courses</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition"><a href="/feedback">Feedback</a></h4>
-        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition">My Courses</h4>
+        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition"><a href="/mycourses">My Courses</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition"><a href="/contact">Contact Us</a></h4>
       </nav>
       
@@ -33,10 +33,10 @@ export function HeaderCourse() {
         <Image src={logo} alt="logo" width={60} height={60} /></a>
       </div>
       <nav className="flex space-x-6 text-[#FEF9F1] font-[Inknut Antiqua] text-lg bg-[#28303D] px-8 py-2 rounded-full shadow-lg border border-[#FEF9F1]/20">
-        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1">About Us</h4>
+        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/aboutus">About Us</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition bg-[#FEF9F1] rounded-md p-1 text-black"> <a href="/courses">Courses</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/feedback">Feedback</a></h4>
-        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1">My Courses</h4>
+        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/mycourses">My Courses</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/contact">Contact Us</a></h4>
       </nav>
       
@@ -57,10 +57,10 @@ export function HeaderFeedback() {
         <Image src={logo} alt="logo" width={60} height={60} /></a>
       </div>
       <nav className="flex space-x-6 text-[#FEF9F1] font-[Inknut Antiqua] text-lg bg-[#28303D] px-8 py-2 rounded-full shadow-lg border border-[#FEF9F1]/20">
-        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1">About Us</h4>
+        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/aboutus">About Us</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"> <a href="/courses">Courses</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition bg-[#FEF9F1] rounded-md p-1 text-black"><a href="/feedback">Feedback</a></h4>
-        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1">My Courses</h4>
+        <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/mycourses">My Courses</a></h4>
         <h4 className="hover:text-[#F7B6CA] cursor-pointer transition p-1"><a href="/contact">Contact Us</a></h4>
       </nav>
       
