@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type TouristCardProps = {
-    image: string;
+    image: StaticImageData;  // Accept imported images directly
     heading: string;
     details: string;
 };

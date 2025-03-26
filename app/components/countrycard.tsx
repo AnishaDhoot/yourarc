@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type CountryCardProps = {
-    image: string;
+    image: StaticImageData;
     name: string;
     link:string;
 };
