@@ -34,39 +34,28 @@ export default function Bangladesh() {
             <h1 className="font-[Inknut Antiqua] text-5xl text-white text-center mt-4">
                 Bangladesh
             </h1>
-            <div className="flex flex-row gap-8 mt-8">
-    {/* Left Side - Map Image */}
-    <div className="flex-1 flex items-center">
-        <Image 
-            src={bangladesh} 
-            alt="bangladesh" 
-            className="rounded-lg w-full h-full object-contain"
-        />
-    </div>
+          
+            <div className="flex flex-col md:flex-row mt-6 gap-8">
+                <div className="md:flex-1">
+                    <Image src={bangladesh} alt="bangladesh" className="rounded-lg w-full h-auto" />
+                </div>
 
-    {/* Right Side - Flag & Facts */}
-    <div className="flex-1 flex flex-col gap-6">
-        {/* Flag & Capital */}
-        <div className="flex flex-row items-center gap-6">
-            <div className="w-[40%]">
-                <h1 className="text-white font-[Inknut Antiqua] text-2xl mb-2">Flag:</h1>
-                <Image src={bangladeshflag} alt="bangladeshflag" className="rounded-lg w-full" />
-            </div>
-            <div className="bg-[#7FC7D9] flex-1 rounded-lg text-center font-[Inknut Antiqua] text-xl p-4 flex flex-col justify-center">
-                <h1 className="mb-2">
-                    <span className="font-bold">Capital:</span> Dhaka
-                </h1>
-                <h2>
-                    Dhaka, the "City of Mosques," is a bustling metropolis rich in history, culture, and growth.
-                </h2>
-            </div>
-        </div>
+                <div className="md:flex-1 flex flex-col gap-6">
+                    <div className="flex flex-col md:flex-row items-center gap-6">
+                        <div className="w-full md:w-[40%]">
+                            <h1 className="text-white font-[Inknut Antiqua] text-xl md:text-2xl mb-2">Flag:</h1>
+                            <Image src={bangladeshflag} alt="bangladeshflag" className="rounded-lg w-full" />
+                        </div>
+                        <div className="bg-[#7FC7D9] rounded-lg text-center font-[Inknut Antiqua] text-lg md:text-xl p-4 h-auto">
+                            <h1 className="mb-2 font-bold">Capital: Dhaka</h1>
+                            <h2>Dhaka is known as the city of mosques and has the world's largest rivers.</h2>
+                        </div>
+                    </div>
 
-        {/* Interesting Facts */}
-        <div className="text-black font-[Inknut Antiqua] bg-[#FEF9F1] p-6 rounded-lg">
-            <h1 className="text-3xl font-bold mb-3">Interesting Facts about Bangladesh</h1>
-            <ul className="text-xl space-y-2">
-    <li>1. Home to the world's largest mangrove forest, the Sundarbans.</li>
+                    <div className="text-black font-[Inknut Antiqua] bg-[#FEF9F1] p-4 md:p-6 rounded-lg">
+                        <h1 className="text-2xl md:text-3xl font-bold mb-3">Interesting Facts about Bangladesh</h1>
+                        <ul className="text-lg md:text-xl space-y-2">
+                        <li>1. Home to the world's largest mangrove forest, the Sundarbans.</li>
     <li>2. Cox’s Bazar has the world’s longest unbroken sea beach (120 km).</li>
     <li>3. Bangladesh has over 700 rivers, earning it the nickname "Land of Rivers."</li>
     <li>4. Second-largest exporter of ready-made garments after China.</li>
@@ -81,11 +70,10 @@ export default function Bangladesh() {
     <li>13. The national fruit of Bangladesh is the jackfruit, locally known as "Kathal."</li>
     <li>14. The country has six seasons: Summer, Monsoon, Autumn, Late Autumn, Winter, and Spring.</li>
 </ul>
+                    </div>
+                </div>
+            </div>
 
-
-        </div>
-    </div>
-</div>
 
 
             <div>

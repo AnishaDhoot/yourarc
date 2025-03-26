@@ -35,30 +35,29 @@ export default function Bhutan() {
                 Bhutan
             </h1>
 
-            <div className="flex flex-row mt-6 gap-8 mt-8">
-            <div className="flex-1">
+            <div className="flex flex-col md:flex-row mt-6 gap-8">
+                <div className="md:flex-1">
         <Image src={bhutan} alt="bhutan" className="rounded-lg w-full h-auto" />
     </div>
             
 
-                <div className="flex-1 flex flex-col gap-6">
-                    <div className="flex flex-row items-center gap-6">
-                        <div className="w-[40%]">
-                            <h1 className="text-white font-[Inknut Antiqua] text-2xl mb-2">Flag:</h1>
+    <div className="md:flex-1 flex flex-col gap-6">
+                    <div className="flex flex-col md:flex-row items-center gap-6">
+                        <div className="w-full md:w-[40%]">
+                            <h1 className="text-white font-[Inknut Antiqua] text-xl md:text-2xl mb-2">Flag:</h1>
                             <Image src={bhutanflag} alt="bhutanflag" className="rounded-lg w-full" />
                         </div>
-                        <div className="bg-[#7FC7D9] flex-1 rounded-lg text-center font-[Inknut Antiqua] text-xl p-4 mt-8 h-[83%] w-[50%]">
-                            <h1 className="mb-2">
-                                <span className="font-bold">Capital:</span> Thimphu
+                        <div className="bg-[#7FC7D9] rounded-lg text-center font-[Inknut Antiqua] text-lg md:text-xl p-4 h-auto">
+                            <h1 className="mb-2 font-bold">Capital: Thimphu
                             </h1>
                             <h2>
                                 Thimphu is the only capital city in the world without traffic lights, relying instead on human traffic controllers.
                             </h2>
                         </div>
                     </div>
-                    <div className="text-black font-[Inknut Antiqua] bg-[#FEF9F1] p-6 rounded-lg">
-                        <h1 className="text-3xl font-bold mb-3">Interesting Facts about Bhutan</h1>
-                        <ul className="text-xl space-y-2">
+                    <div className="text-black font-[Inknut Antiqua] bg-[#FEF9F1] p-4 md:p-6 rounded-lg">
+                        <h1 className="text-2xl md:text-3xl font-bold mb-3">Interesting Facts about Bhutan</h1>
+                        <ul className="text-lg md:text-xl space-y-2">
                             <li>1. Bhutan is the only carbon-negative country in the world.</li>
                             <li>2. The country measures its progress using Gross National Happiness (GNH) instead of GDP.</li>
                             <li>3. Bhutan has never been colonized by another country.</li>
