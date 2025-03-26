@@ -34,34 +34,26 @@ export default function Afghanistan() {
                 Afghanistan
             </h1>
 
-            <div className="flex flex-row mt-6 gap-8 mt-8">
-                {/* Left Side - Image */}
-                <div className="flex-[50%]">
+            <div className="flex flex-col md:flex-row mt-6 gap-8">
+                <div className="md:flex-1">
                     <Image src={afghanistan} alt="afghanistan" className="rounded-lg w-full h-auto" />
                 </div>
 
-                {/* Right Side - Flag & Facts */}
-                <div className="flex-[50%] flex flex-col gap-6">
-                    {/* Flag & Capital */}
-                    <div className="flex flex-row items-center gap-6">
-                        <div className="w-[40%]">
-                            <h1 className="text-white font-[Inknut Antiqua] text-2xl mb-2">Flag:</h1>
+                <div className="md:flex-1 flex flex-col gap-6">
+                    <div className="flex flex-col md:flex-row items-center gap-6">
+                        <div className="w-full md:w-[40%]">
+                            <h1 className="text-white font-[Inknut Antiqua] text-xl md:text-2xl mb-2">Flag:</h1>
                             <Image src={afghanistanflag} alt="afghanistanflag" className="rounded-lg w-full" />
                         </div>
-                        <div className="bg-[#7FC7D9] flex-1 rounded-lg text-center font-[Inknut Antiqua] text-xl p-4 mt-8 h-[83%] w-[50%]">
-                            <h1 className="mb-2">
-                                <span className="font-bold">Capital:</span> Kabul
-                            </h1>
-                            <h2>
-                                Kabul is one of the highest capital cities in the world, sitting at 1,790 meters above sea level.
-                            </h2>
+                        <div className="bg-[#7FC7D9] rounded-lg text-center font-[Inknut Antiqua] text-lg md:text-xl p-4 h-auto">
+                            <h1 className="mb-2 font-bold">Capital: Kabul</h1>
+                            <h2>Kabul is one of the highest capital cities in the world, sitting at 1,790 meters above sea level.</h2>
                         </div>
                     </div>
 
-                    {/* Interesting Facts */}
-                    <div className="text-black font-[Inknut Antiqua] bg-[#FEF9F1] p-6 rounded-lg">
-                        <h1 className="text-3xl font-bold mb-3">Interesting Facts about Afghanistan</h1>
-                        <ul className="text-xl space-y-2">
+                    <div className="text-black font-[Inknut Antiqua] bg-[#FEF9F1] p-4 md:p-6 rounded-lg">
+                        <h1 className="text-2xl md:text-3xl font-bold mb-3">Interesting Facts about Afghanistan</h1>
+                        <ul className="text-lg md:text-xl space-y-2">
                             <li>1. Bamiyan Buddhas were among the world’s tallest until their destruction in 2001.</li>
                             <li>2. Afghanistan was a key stop on the ancient Silk Road trade route.</li>
                             <li>3. Over 40 languages are spoken, with Dari and Pashto as official languages.</li>
