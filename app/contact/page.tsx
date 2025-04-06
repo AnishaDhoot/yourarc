@@ -14,8 +14,8 @@ export default function ContactUsPage() {
 
   return (
     <div
-      className="h-screen bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('/feedbackback.png')" }}
+      className="h-screen bg-[#212731] bg-center text-white"
+      
     >
       <HeaderContact />
       <div className="px-6 py-12 flex items-center justify-center">

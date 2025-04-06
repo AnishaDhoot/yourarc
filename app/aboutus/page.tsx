@@ -4,7 +4,7 @@ import { HeaderAbout } from "../components/header";
 
 export default function AboutUsPage() {
   return (
-    <div className="h-screen bg-cover bg-center text-white" style={{ backgroundImage: "url('/feedbackback.png')" }}>
+    <div className="h-screen  bg-[#212731] bg-center text-white">
       <HeaderAbout />
       <div className="px-6 py-12 flex items-center justify-center">
         <div className="max-w-5xl w-full text-center space-y-14">
