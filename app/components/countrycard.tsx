@@ -1,27 +1,31 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 type CountryCardProps = {
-    image: StaticImageData;
-    name: string;
-    link:string;
+  image: StaticImageData;
+  name: string;
+  link: string;
 };
 
-export default function CountryCard({ image, name,link }: CountryCardProps) {
-    return (
-        <div className="bg-[#7FC7D9] w-[25%] h-[50%] flex flex-col items-center justify-center hover:scale-105 hover:ease-in-out rounded-lg mb-8">
-            <a href={`/${link}`} className="w-full h-full flex flex-col items-center">
-                <div className="w-[90%] h-[200px] mt-4 overflow-hidden rounded-lg border-2 border-black">
-                    <Image 
-                        src={image} 
-                        alt={name}   // Matches 90% of 300px width
-                         // Ensures proper height
-                        className=" bg-white object-contain w-full h-full w-[90%] h-[80%]"
-                    />
-                </div>
-                <h2 className="text-black text-2xl text-center font-[Kameron] font-bold mt-2 mb-2">
-                    {name}
-                </h2>
-            </a>
+export default function CountryCard({ image, name, link }: CountryCardProps) {
+  return (
+    <Link href={`/${link}`}>
+        <div className="group bg-[#7FC7D9] overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer w-full max-w-xs mx-auto border-2 border-[#6AB3C2]">
+        <div className="relative h-52 sm:h-60 w-full bg-white flex items-center justify-center border-b-2 border-[#6AB3C2]">
+          <Image
+            src={image}
+            alt={name}
+            className="object-contain w-full h-full p-4"
+            width={250}
+            height={250}
+          />
         </div>
-    );
+        <div className="py-4 text-center">
+          <h2 className="text-xl font-bold font-[Kameron] text-[#212731] group-hover:underline uppercase tracking-wide">
+            {name}
+          </h2>
+        </div>
+      </div>
+    </Link>
+  );
 }
