@@ -53,7 +53,7 @@ export default function AboutUsPage() {
             <p className="text-[#bab4aa] text-lg">
               Want to collaborate or just say hi? Let’s build something meaningful together.
             </p> <a href="/contact">
-            <button className="mt-4 px-6 py-2 rounded-xl text-[#1e1e1e] bg-[#e7c9a9] hover:bg-[#f3dcbf] transition font-semibold shadow-md">
+            <button className="mt-4 px-6 py-2 rounded-xl text-[#1e1e1e] bg-[#F7B6CA] hover:bg-[#f3dcbf] transition font-semibold shadow-md">
               Get in Touch
             </button>
             </a>
