@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       </div>
       {/* ---------------------------------------------------------- */}
-      <div className="text-white bg-cover h-[100%]"    style={{ backgroundImage: "url('/background2.png')" }}> 
+      {/* <div className="text-white bg-cover h-[100%]"    style={{ backgroundImage: "url('/background2.png')" }}> 
       <h1 className="font-[Kameron] text-5xl font-extrabold ml-16 mt-8 pt-20 text-center text-white">Word of the Day</h1>
       <div className="text-white ml-[20%] mt-12">
       <h2 className="font-[Inknut Antiqua] text-3xl font-extrabold text-left"><span className="text-[#CEC2FF]">Word :</span> novation</h2>
@@ -68,7 +68,7 @@ export default function Home() {
       <h2 className="font-[Inknut Antiqua] text-3xl font-extrabold text-left mt-4">- The city’s novation in urban planning has made it a model for other metropolitan areas.</h2>
       <h2 className="font-[Inknut Antiqua] text-3xl font-extrabold text-left mt-4">-  His artistic novation introduced a new aesthetic that quickly gained popularity.</h2>
       </div>
-      </div>
+      </div> */}
       {/*    ---------------------------------------------------------- */}
       <div className="ml-[3%] mt-20">
       <div className="flex flex-row">  
