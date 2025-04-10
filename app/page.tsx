@@ -70,9 +70,9 @@ export default function Home() {
       </div>
       </div> */}
       {/*    ---------------------------------------------------------- */}
-      <div className="ml-[3%] mt-20">
+      <div className="ml-[3%] mt-24">
       <div className="flex flex-row">  
-        <h1 className="text-white font-[Kameron] text-5xl font-extrabold ml-[3%]  ">Explore Courses </h1>
+        <h1 className="text-white font-[Kameron] text-5xl font-extrabold ml-[3%] mb-4  ">Explore Courses </h1>
         <Image src={arrow} alt="arrow" className="w-[4%] h-[4%] mt-2 ml-4 "/>
          </div>
          <div className="flex flex-row gap-[8%] mt-8 ml-[3%]">
